@@ -15,7 +15,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -30,11 +30,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i> About</a></li>
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i> Projects</a></li>
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i> Services</a></li>
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i> Contact</a></li>                  
+                    <li><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li><a href="About.aspx"><i class="fa fa-info fa-lg"></i> About</a></li>
+                    <li><a href="Projects.aspx"><i class="fa fa-th fa-lg"></i> Projects</a></li>
+                    <li><a href="Services.aspx"><i class="fa fa-gear fa-lg"></i> Services</a></li>
+                    <li><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>                  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -43,7 +43,7 @@
     </nav>
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
